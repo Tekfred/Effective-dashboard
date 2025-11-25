@@ -27,16 +27,16 @@
 
         <div>
 
-        <div class="flex text-center items-center gap-3 font-playfairdisplay font-bold text-2xl m-6">
+        <header class="flex text-center items-center gap-3 font-playfairdisplay font-bold text-2xl m-6">
             <img  class="w-10" src="/assets/pics and pngs/logo.png" alt="logo"></img>
 
             <h2 class="font-playfairdisplay">EGA<span class="text-[#ff7782]">TOR</span></h2>
-        </div>
+        </header>
 
 
-     <div class="m-6 py-10">
-            <a href="dashboard" class="flex gap-5 text-sm  pb-6 bg-[#d4d6eb] text-[#4755d0] 
-            border-l-7 pl-4 p-3 w-[200px] "><span class="material-symbols-outlined">dashboard</span><h3>Dashboard</h3></a>
+     <nav class="m-6 py-10">
+            <a href="dashboard" class="flex gap-5 text-sm pb-6 bg-[#d4d6eb] text-[#4755d0] 
+            border-l-7 p-3 w-[200px]"><span class="material-symbols-outlined">dashboard</span><h3>Dashboard</h3></a>
              <a href="Customer" class="flex gap-5 text-sm text-[#677483] pb-6 hover:bg-[#d4d6eb] hover:text-[#4755d0] 
             hover:border-l-7 hover:pl-4 hover:p-4 hover:w-[200px]"><span class="material-symbols-outlined">
                 person</span><h3>Customer</h3> </a>
@@ -48,7 +48,7 @@
                 analytics</span><h3>Analytics</h3></a>
              <a href="" class="flex gap-5 text-sm text-[#677483] pb-6 hover:bg-[#d4d6eb] hover:text-[#4755d0] 
             hover:border-l-7 hover:pl-4 hover:p-4 hover:w-[200px]"><span class="material-symbols-outlined">
-                mark_email_unread</span><h3>Email</h3> </a>
+                mark_email_unread</span><h3>Messages <span class="bg-[#ff7782] text-white px-2 py-0.4 rounded relative left-10 hover:relative hover:left-[20px]">26</span></h3> </a>
              <a href="" class="flex gap-5 text-sm text-[#677483] pb-6 hover:bg-[#d4d6eb] hover:text-[#4755d0] 
             hover:border-l-7 hover:pl-4 hover:p-4 hover:w-[200px]"><span class="material-symbols-outlined">
                 inventory</span><h3>Products</h3></a>
@@ -64,58 +64,165 @@
 
                  <a href="" class="flex gap-5 text-sm text-[#677483] pt-20 "><span class="material-symbols-outlined">
                 logout</span><h3>Logout</h3> </a>
-        </div>
+        </nav>
     
 
     </div>
 
-        <section class=" mx-15 m-8  ">
+        <section class="m-5 ml-2 ">
 
-            <div>
-                <h1 class="text-bold text-3xl font-playfairdisplay">Dashboard</h1>
+            <header>
+                <h1 class="text-bold text-3xl m-2 font-playfairdisplay archivo-black-regular">Dashboard</h1>
 
-                <input class="bg-[#d3d1e4] rounded-sm p-1 font-pacificoRegular" type="date" name="email" id="">
-            </div>
+                <input class="bg-[#d3d1e4] rounded-sm p-1  m-2 font-pacificoRegular" type="date" name="email" id="">
+            </header>
 
-            <div class="flex justify-evenly gap-5">
-                <div>
-                    <div>
-                        <span  class="material-symbols-outlined bg-[#7380ec] rounded-2xl p-1 text-white">analytics</span>   
-                        <h3>Total Sales</h3>
-                         <h2>125,024</h2>
-                        <p>Last 24 Hours</p>
+            <section class="flex justify-evenly gap-5">
+                <main class="flex gap-8 m-auto p-4 bg-white-300 shadow-2xl rounded-2xl">
+                    <div class="line-height-200">
+                        <span class="material-symbols-outlined bg-[#7380ec] rounded-3xl p-2 text-white">analytics</span>   
+                        <h3 class="archivo-black-regular text-sm pt-3">Total Sales</h3>
+                         <h2 class="archivo-black-regular text-2xl pt-3">$125,024</h2>
+                        <p class="text-[11px] text-[#949eaa] archivo-black-regular pt-10">Last 24 Hours</p>
                     </div>
-                       <svg><circle class="bg-[#7380ec]" cx="38" cy="38" r="36"></circle></svg> 
-                </div>
-
-                <div>
-                    <div>
-                           <span class="material-symbols-outlined bg-[#ff7782] rounded-2xl p-1 text-white">bar_chart</span>
-                           <h3>Total Sales</h3>
-                           <h2>125,024</h2>
-                            <p>Last 24 Hours</p>
+                    <div class="flex relative top-10">
+                        <svg class=" m fill-none w-20 stroke-[#7380ec] stroke-14 [stroke-linecap:round] [stroke-dasharray:270] [stroke-dashoffset:92] rounded-lg "><circle cx="40" cy="40" r="33"></circle></svg>
+                       <p class="text-[11px] text-[#677483] stack-sansnotchun relative right-[50px] top-[34px]">81%</p> 
                     </div>
-                        <div class="bg-"></div>
-                </div>
+                       
+                </main>
 
-                <div>
-                    <div>
-                        <span class="material-symbols-outlined bg-[#41f1b6] rounded-2xl p-1 text-white">stacked_line_chart</span>
-                        <h3>Total Sales</h3>
-                        <h2>125,024</h2>
-                        <p>Last 24 Hours</p>
+                <main class="flex gap-8 m-auto p-4 bg-white-300 shadow-2xl rounded-2xl">
+                    <div class="line-height-200">
+                        <span class="material-symbols-outlined bg-[#7380ec] rounded-3xl p-2 text-white">analytics</span>   
+                        <h3 class="archivo-black-regular text-sm pt-3">Total Sales</h3>
+                         <h2 class="archivo-black-regular text-2xl pt-3">$125,024</h2>
+                        <p class="text-[11px] text-[#949eaa] archivo-black-regular pt-10">Last 24 Hours</p>
                     </div>
-                        <div></div>
-                </div>
-            </div>
+                    <div class="flex relative top-10">
+                        <svg class=" m fill-none w-20 stroke-[#7380ec] stroke-14 [stroke-linecap:round] [stroke-dasharray:270] [stroke-dashoffset:-82] rounded-lg  "><circle cx="40" cy="40" r="33"></circle></svg>
+                       <p class="text-[11px] text-[#677483] stack-sansnotchun relative right-[50px] top-[34px]">81%</p> 
+                    </div>
+                       
+                </main>
+
+               <main class="flex gap-8 m-auto p-4 bg-white-300 shadow-2xl rounded-2xl">
+                    <div class="line-height-200">
+                        <span class="material-symbols-outlined bg-[#7380ec] rounded-3xl p-2 text-white">analytics</span>   
+                        <h3 class="archivo-black-regular text-sm pt-3">Total Sales</h3>
+                         <h2 class="archivo-black-regular text-2xl pt-3">$125,024</h2>
+                        <p class="text-[11px] text-[#949eaa] archivo-black-regular pt-10">Last 24 Hours</p>
+                    </div>
+                    <div class="flex relative top-10">
+                        <svg class=" m fill-none w-20 stroke-[#7380ec] stroke-14 [stroke-linecap:round] [stroke-dasharray:200] [stroke-dashoffset:72] rounded-lg  "><circle cx="40" cy="40" r="33"></circle></svg>
+                       <p class="text-[11px] text-[#677483] stack-sansnotchun relative right-[50px] top-[34px]">81%</p> 
+                    </div>
+                       
+                </main>
+            </section>
+
+
+            <section>
+
+                <h1 class="archivo-black-regular text-xl mt-5">Recent Orders</h1>
+
+            
+                <table class="table-auto bg-white-300 shadow-2xl rounded-2xl">
+                    <tr>
+                        <th class="text-[13px] text-black archivo-black-regular py-2.5 pl-[100px] ">Product Name</th>
+                        <th class="text-[13px] text-black archivo-black-regular py-2.5 pl-[135px]">Product Number</th>
+                        <th class="text-[13px] text-black archivo-black-regular py-2.5 pl-[80px]">Payment</th>
+                        <th class="text-[13px] text-black archivo-black-regular py-2.5 pl-[80px]">Status</th>
+                    </tr>
+                    <tbody>
+                         <tr class="text-center">
+                            <td class="text-[13px] text-[#677483] font-medium py-2.5 pl-[100px]">Foldable Mini Drone</td>
+                            <td class="text-[13px] text-[#677483] font-medium py-2.5 pl-[135px]">85631</td>
+                            <td class="text-[13px] text-[#677483] font-medium py-2.5 pl-[80px]">Due</td>
+                            <td class="text-[13px] text-[#ffbb55] font-medium py-2.5 pl-[80px]">Pending</td>
+                            <td class="text-[13px] text-[#677483] font-medium py-2.5 pl-[40px] px-9"> Details</td>
+                        </tr>
+
+                        <tr class="text-center">
+                            <td class="text-[13px] text-[#677483] font-medium py-2.5 pl-[100px]">LARVENDER KF102 Drone</td>
+                            <td class="text-[13px] text-[#677483] font-medium py-2.5 pl-[135px]">36378</td>
+                            <td class="text-[13px] text-[#677483] font-medium py-2.5 pl-[80px]">Refunded</td>
+                            <td class="text-[13px] text-[#ff7782] font-medium py-2.5 pl-[80px]">Declined</td>
+                            <td class="text-[13px] text-[#677483] font-medium py-2.5 pl-[40px] px-9">Details</td>
+                        </tr>
+
+                        <tr class="text-center">
+                            <td class="text-[13px] text-[#677483] font-medium py-2.5 pl-[100px]">Ruko F11 Pro Drone</td>
+                            <td class="text-[13px] text-[#677483] font-medium py-2.5 pl-[135px]">49347</td>
+                            <td class="text-[13px] text-[#677483] font-medium py-2.5 pl-[80px]">Due</td>
+                            <td class="text-[13px] text-[#ffbb55] font-medium py-2.5 pl-[80px]">Pending</td>
+                            <td class="text-[13px] text-[#677483] font-medium py-2.5 pl-[40px] px-9">Details</td>
+                        </tr>
+
+                        <tr class="text-center">
+                            <td class="text-[13px] text-[#677483] font-medium mt-10 py-2.5 pl-[100px]">Drone with Camera Drone</td>
+                            <td class="text-[13px] text-[#677483] font-medium mt-10 py-2.5 pl-[135px]">96996</td>
+                            <td class="text-[13px] text-[#677483] font-medium mt-10 py-2.5 pl-[80px]">Paid</td>
+                            <td class="text-[13px] text-[#a5acef] font-medium mt-10 py-2.5 pl-[80px]">Delivered</td>
+                            <td class="text-[13px] text-[#677483] font-medium mt-10 py-2.5 pl-[40px] px-9">Details</td>
+                        </tr>
+
+                        <tr class="text-center">
+                            <td class="text-[13px] text-[#677483] font-medium mt-10 py-2.5 pl-[100px]">GPS 4k Drone</td>
+                            <td class="text-[13px] text-[#677483] font-medium mt-10 py-2.5 pl-[135px]">22821</td>
+                            <td class="text-[13px] text-[#677483] font-medium mt-10 py-2.5 pl-[80px]">Paid</td>
+                            <td class="text-[13px] text-[#a5acef] font-medium mt-10 py-2.5 pl-[80px]">Delivered</td>
+                            <td class="text-[13px] text-[#677483] font-medium mt-10 py-2.5 pl-[40px] px-9">Details</td>
+                        </tr>
+
+                        <tr class="text-center">
+                            <td class="text-[13px] text-[#677483] font-medium mt-10 py-2.5 pl-[100px]">DJI Air 25</td>
+                            <td class="text-[13px] text-[#677483] font-medium mt-10 py-2.5 pl-[135px]">81475</td>
+                            <td class="text-[13px] text-[#677483] font-medium mt-10 py-2.5 pl-[80px]">Due</td>
+                            <td class="text-[13px] text-[#ffbb55] font-medium mt-10 py-2.5 pl-[80px]">Pending</td>
+                            <td class="text-[13px] text-[#677483] font-medium mt-10 py-2.5 pl-[40px] px-9">Details</td>
+                        </tr>
+
+                         <tr class="text-center">
+                            <td class="text-[13px] text-[#677483] font-medium mt-10 pb-5.5 pl-[100px]">Lorenge Drone</td>
+                            <td class="text-[13px] text-[#677483] font-medium mt-10 pb-5.5 pl-[135px]" >00482</td>
+                            <td class="text-[13px] text-[#677483] font-medium mt-10 pb-5.5 pl-[80px]">Paid</td>
+                            <td class="text-[13px] text-[#a5acef] font-medium mt-10 pb-5.5 pl-[80px]">Delivered</td>
+                            <td class="text-[13px] text-[#677483] font-medium mt-10 pb-5.5 pl-[40px] px-9">Details</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+
+            </section>
 
        </section>
+
+                 <section>
+                        <main class="flex gap-4 mt-8 mx-10">
+                            <button id="toggle" class="cursor-pointer">
+                                <span class="material-symbols-outlined text-white  bg-[#7380ec] rounded-md px-[6px] transform translate-x-2">light_mode</span>
+                                <span class="material-symbols-outlined bg-[#d0d4fa] rounded-r-md px-[5px]">dark_mode</span>
+                                
+                            </button>
+                            <div class="text-right transform translate-x-3">
+                                <h3 class="font-sm ">Hey,<span class="font-medium">Daniel</span></h3>
+                                <p class="">Admin</p>
+                            </div>
+
+                            <img class="w-13 h-13 rounded-full" src="/assets/pics and pngs/profile-1.jpg" alt="">
+
+                        </main>
+                    </section>
 
 
     </section>
     
 
 
+
+   
     
 
     
